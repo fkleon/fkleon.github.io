@@ -1,0 +1,134 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+                <meta charset="utf-8">
+        <title>Lexer class / math_expressions Library / Dart Documentation</title>
+        <link rel="stylesheet" type="text/css"
+            href="../styles.css">
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico">
+        
+        </head>
+        <body data-library="math_expressions" data-type="Lexer">
+        <div class="page">
+        <div class="header">
+          <a href="../index.html"><div class="logo"></div></a>
+          <a href="../index.html">Dart Documentation</a>
+         &rsaquo; <a href="../math_expressions.html">math_expressions</a> &rsaquo; <a href="../math_expressions/Lexer.html">Lexer</a>        <div id="search-box">
+          <input type="search" name="q" id="q" autocomplete="off"
+              class="search-input" placeholder="Search API">
+        </div>
+        
+      </div>
+      <div class="drop-down" id="drop-down"></div>
+      
+        <div class="nav">
+        
+</div>
+<div class="content">
+        <h2><strong>Lexer</strong>
+          class
+        </h2>
+        
+<button id="show-inherited" class="show-inherited">Hide inherited</button>
+<div class="doc">
+</div>
+<div>
+<h3>Constructors</h3>
+<div class="method"><h4 id="">
+new <strong>Lexer</strong>() <a class="anchor-link" href="#"
+              title="Permalink to Lexer.Lexer">#</a></h4>
+<div class="doc">
+<div class="inherited">
+<p>Creates a new <a class="crossref" href="../dart_core/Object.html">Object</a> instance.</p>
+<p><a class="crossref" href="../dart_core/Object.html">Object</a> instances have no meaningful state, and are only useful
+through their identity. An <a class="crossref" href="../dart_core/Object.html">Object</a> instance is equal to itself
+only.</p>
+<div class="docs-inherited-from">docs inherited from Object </div></div>
+</div>
+</div>
+</div>
+<div>
+<h3>Properties</h3>
+<div class="field"><h4 id="intBuffer">
+String         <strong>intBuffer</strong> <a class="anchor-link"
+            href="#intBuffer"
+            title="Permalink to Lexer.intBuffer">#</a>
+        </h4>
+        <div class="doc">
+</div>
+</div>
+<div class="field"><h4 id="keywords">
+var         <strong>keywords</strong> <a class="anchor-link"
+            href="#keywords"
+            title="Permalink to Lexer.keywords">#</a>
+        </h4>
+        <div class="doc">
+</div>
+</div>
+<div class="field"><h4 id="tokenStream">
+final List&lt;<a href="../math_expressions/Token.html">Token</a>&gt;         <strong>tokenStream</strong> <a class="anchor-link"
+            href="#tokenStream"
+            title="Permalink to Lexer.tokenStream">#</a>
+        </h4>
+        <div class="doc">
+</div>
+</div>
+<div class="field"><h4 id="varBuffer">
+String         <strong>varBuffer</strong> <a class="anchor-link"
+            href="#varBuffer"
+            title="Permalink to Lexer.varBuffer">#</a>
+        </h4>
+        <div class="doc">
+</div>
+</div>
+</div>
+<div>
+<h3>Methods</h3>
+<div class="method"><h4 id="createTokenStream">
+List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>createTokenStream</strong>(String inputString) <a class="anchor-link" href="#createTokenStream"
+              title="Permalink to Lexer.createTokenStream">#</a></h4>
+<div class="doc">
+<p>creates a list of tokens from the given string.</p>
+</div>
+</div>
+<div class="method"><h4 id="createUPNStream">
+dynamic <strong>createUPNStream</strong>(String inputString) <a class="anchor-link" href="#createUPNStream"
+              title="Permalink to Lexer.createUPNStream">#</a></h4>
+<div class="doc">
+<p>This method invokes the createTokenStream methode to create an infix token stream and then invokes the shunting
+yards method to transform this stream into an UPN token stream.</p>
+<p>Returns  List&lt;Token>.</p>
+</div>
+</div>
+<div class="method"><h4 id="doIntBuffer">
+void <strong>doIntBuffer</strong>(List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; stream) <a class="anchor-link" href="#doIntBuffer"
+              title="Permalink to Lexer.doIntBuffer">#</a></h4>
+<div class="doc">
+<p>Checks if the intBuffer contains a number and adds it to the tokenStream.</p>
+</div>
+</div>
+<div class="method"><h4 id="doVarBuffer">
+void <strong>doVarBuffer</strong>(List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; stream) <a class="anchor-link" href="#doVarBuffer"
+              title="Permalink to Lexer.doVarBuffer">#</a></h4>
+<div class="doc">
+<p>Checks if the varBuffer contains a keyword or a variable and adds them to the tokenStream.</p>
+</div>
+</div>
+<div class="method"><h4 id="shuntingYard">
+List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>shuntingYard</strong>(List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; stream) <a class="anchor-link" href="#shuntingYard"
+              title="Permalink to Lexer.shuntingYard">#</a></h4>
+<div class="doc">
+<p>Transforms the lexers token stream into UPN.</p>
+</div>
+</div>
+</div>
+        </div>
+        <div class="clear"></div>
+        </div>
+        <div class="footer">
+          <div>This page was generated at 2013-10-04 18:35:58.044</div>
+        </div>
+        <script async src="../client-live-nav.js"></script>
+        </body></html>
+        
