@@ -32,6 +32,9 @@
         
 <button id="show-inherited" class="show-inherited">Hide inherited</button>
 <div class="doc">
+<p>The Parser creates a mathematical <a class="crossref" href="../math_expressions/Expression.html">Expression</a> from an input string.</p>
+<p>It uses a <a class="crossref" href="../math_expressions/Lexer.html">Lexer</a> to create a RPN token stream and then builds the
+expression.</p>
 </div>
 <div>
 <h3>Constructors</h3>
@@ -39,12 +42,7 @@
 new <strong>Parser</strong>() <a class="anchor-link" href="#"
               title="Permalink to Parser.Parser">#</a></h4>
 <div class="doc">
-<div class="inherited">
-<p>Creates a new <a class="crossref" href="../dart_core/Object.html">Object</a> instance.</p>
-<p><a class="crossref" href="../dart_core/Object.html">Object</a> instances have no meaningful state, and are only useful
-through their identity. An <a class="crossref" href="../dart_core/Object.html">Object</a> instance is equal to itself
-only.</p>
-<div class="docs-inherited-from">docs inherited from Object </div></div>
+<p>Creates a new parser.</p>
 </div>
 </div>
 </div>
@@ -65,6 +63,8 @@ only.</p>
 <a href="../math_expressions/Expression.html">Expression</a> <strong>parse</strong>(String inputString) <a class="anchor-link" href="#parse"
               title="Permalink to Parser.parse">#</a></h4>
 <div class="doc">
+<p>Parses the given input string into an <a class="crossref" href="../math_expressions/Expression.html">Expression</a>. Throws a <a class="crossref" href="../dart_core/StateError.html">StateError</a>
+if the token stream is invalid. Returns a valid <a class="crossref" href="../math_expressions/Expression.html">Expression</a>.</p>
 </div>
 </div>
 </div>
@@ -72,7 +72,7 @@ only.</p>
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-04 18:35:58.063</div>
+          <div>This page was generated at 2013-10-06 15:14:31.578</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
