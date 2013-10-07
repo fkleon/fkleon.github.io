@@ -126,9 +126,8 @@ new <strong>Divide</strong>(dividend, divisor) <a class="anchor-link" href="#"
 dynamic <strong>evaluate</strong>(<a href="../math_expressions/EvaluationType.html">EvaluationType</a> type, <a href="../math_expressions/ContextModel.html">ContextModel</a> context) <a class="anchor-link" href="#evaluate"
               title="Permalink to Divide.evaluate">#</a></h4>
 <div class="doc">
-<div class="inherited">
-<p>Evaluates this expression according to given type and context.</p>
-<div class="docs-inherited-from">docs inherited from <a href="../math_expressions/Expression.html">Expression</a> </div></div>
+<p>This method throws an <a class="crossref" href="../dart_core/IntegerDivisionByZeroException.html">IntegerDivisionByZeroException</a>,
+if a divide by zero is encountered.</p>
 </div>
 </div>
 <div class="method"><h4 id="simplify">
@@ -136,8 +135,6 @@ dynamic <strong>evaluate</strong>(<a href="../math_expressions/EvaluationType.ht
               title="Permalink to Divide.simplify">#</a></h4>
 <div class="doc">
 <p>Possible simplifications:</p><ol><li>-a / b = - (a / b)</li><li>a * -b = - (a / b)</li><li>-a / -b = a / b</li><li>0 / a = 0</li><li>a / 1 = a</li></ol>
-<p>This method throws an IntegerDivisionByZeroException,
-if a divide by zero is encountered.</p>
 </div>
 </div>
 <div class="method"><h4 id="toString">
@@ -154,7 +151,7 @@ String <strong>toString</strong>() <a class="anchor-link" href="#toString"
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-06 15:14:32.146</div>
+          <div>This page was generated at 2013-10-07 12:49:53.646</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>

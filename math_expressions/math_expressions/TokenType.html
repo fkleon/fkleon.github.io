@@ -32,7 +32,10 @@
         
 <button id="show-inherited" class="show-inherited">Hide inherited</button>
 <div class="doc">
-<p>A token type.</p>
+<p>A token type. Access token types via the static final fields.</p>
+<p>For example, to access the token type PLUS:</p>
+<pre><code>plusType = TokenType.PLUS;
+</code></pre>
 </div>
 <div>
 <h3>Static Properties</h3>
@@ -166,21 +169,6 @@ final <a href="../math_expressions/TokenType.html">TokenType</a>         <strong
 </div>
 </div>
 <div>
-<h3>Constructors</h3>
-<div class="method"><h4 id="">
-const <strong>TokenType</strong>(String value, int priority) <a class="anchor-link" href="#"
-              title="Permalink to TokenType.TokenType">#</a></h4>
-<div class="doc">
-<div class="inherited">
-<p>Creates a new <a class="crossref" href="../dart_core/Object.html">Object</a> instance.</p>
-<p><a class="crossref" href="../dart_core/Object.html">Object</a> instances have no meaningful state, and are only useful
-through their identity. An <a class="crossref" href="../dart_core/Object.html">Object</a> instance is equal to itself
-only.</p>
-<div class="docs-inherited-from">docs inherited from Object </div></div>
-</div>
-</div>
-</div>
-<div>
 <h3>Properties</h3>
 <div class="field"><h4 id="priority">
 final int         <strong>priority</strong> <a class="anchor-link"
@@ -188,6 +176,7 @@ final int         <strong>priority</strong> <a class="anchor-link"
             title="Permalink to TokenType.priority">#</a>
         </h4>
         <div class="doc">
+<p>The priority of this token type.</p>
 </div>
 </div>
 <div class="field"><h4 id="value">
@@ -196,6 +185,7 @@ final String         <strong>value</strong> <a class="anchor-link"
             title="Permalink to TokenType.value">#</a>
         </h4>
         <div class="doc">
+<p>The string value of this token type.</p>
 </div>
 </div>
 </div>
@@ -215,7 +205,7 @@ String <strong>toString</strong>() <a class="anchor-link" href="#toString"
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-06 15:14:31.508</div>
+          <div>This page was generated at 2013-10-07 12:49:52.931</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
