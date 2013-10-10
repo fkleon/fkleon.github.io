@@ -57,20 +57,13 @@ String         <strong>intBuffer</strong> <a class="anchor-link"
             title="Permalink to Lexer.intBuffer">#</a>
         </h4>
         <div class="doc">
+<p>Buffer for numbers</p>
 </div>
 </div>
 <div class="field"><h4 id="keywords">
-Map         <strong>keywords</strong> <a class="anchor-link"
+final Map         <strong>keywords</strong> <a class="anchor-link"
             href="#keywords"
             title="Permalink to Lexer.keywords">#</a>
-        </h4>
-        <div class="doc">
-</div>
-</div>
-<div class="field"><h4 id="tokenStream">
-final List&lt;<a href="../math_expressions/Token.html">Token</a>&gt;         <strong>tokenStream</strong> <a class="anchor-link"
-            href="#tokenStream"
-            title="Permalink to Lexer.tokenStream">#</a>
         </h4>
         <div class="doc">
 </div>
@@ -81,34 +74,36 @@ String         <strong>varBuffer</strong> <a class="anchor-link"
             title="Permalink to Lexer.varBuffer">#</a>
         </h4>
         <div class="doc">
+<p>Buffer for variable and function names</p>
 </div>
 </div>
 </div>
 <div>
 <h3>Methods</h3>
-<div class="method"><h4 id="createRPNStream">
-void <strong>createRPNStream</strong>(String inputString) <a class="anchor-link" href="#createRPNStream"
-              title="Permalink to Lexer.createRPNStream">#</a></h4>
-<div class="doc">
-<p>This method invokes the createTokenStream methode to create an infix token
-stream and then invokes the shunting yard method to transform this stream
-into a RPN (reverse polish notation) token stream.</p>
-</div>
-</div>
-<div class="method"><h4 id="createTokenStream">
-List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>createTokenStream</strong>(String inputString) <a class="anchor-link" href="#createTokenStream"
-              title="Permalink to Lexer.createTokenStream">#</a></h4>
-<div class="doc">
-<p>Tokenizes a given input string.
-Returns a list of <a class="crossref" href="../math_expressions/Token.html">Token</a> in infix notation.</p>
-</div>
-</div>
 <div class="method"><h4 id="shuntingYard">
 List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>shuntingYard</strong>(List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; stream) <a class="anchor-link" href="#shuntingYard"
               title="Permalink to Lexer.shuntingYard">#</a></h4>
 <div class="doc">
 <p>Transforms the lexer's token stream into RPN using the Shunting-yard
-algorithm. Returns a list of <a class="crossref" href="../math_expressions/Token.html">Token</a> in RPN form.</p>
+algorithm. Returns a list of <a class="crossref" href="../math_expressions/Token.html">Token</a> in RPN form. Throws an
+<a class="crossref" href="../dart_core/ArgumentError.html">ArgumentError</a> if the list is empty.</p>
+</div>
+</div>
+<div class="method"><h4 id="tokenize">
+List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>tokenize</strong>(String inputString) <a class="anchor-link" href="#tokenize"
+              title="Permalink to Lexer.tokenize">#</a></h4>
+<div class="doc">
+<p>Tokenizes a given input string.
+Returns a list of <a class="crossref" href="../math_expressions/Token.html">Token</a> in infix notation.</p>
+</div>
+</div>
+<div class="method"><h4 id="tokenizeToRPN">
+List&lt;<a href="../math_expressions/Token.html">Token</a>&gt; <strong>tokenizeToRPN</strong>(String inputString) <a class="anchor-link" href="#tokenizeToRPN"
+              title="Permalink to Lexer.tokenizeToRPN">#</a></h4>
+<div class="doc">
+<p>This method invokes the createTokenStream methode to create an infix token
+stream and then invokes the shunting yard method to transform this stream
+into a RPN (reverse polish notation) token stream.</p>
 </div>
 </div>
 </div>
@@ -116,7 +111,7 @@ algorithm. Returns a list of <a class="crossref" href="../math_expressions/Token
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-07 12:49:53.083</div>
+          <div>This page was generated at 2013-10-09 21:10:12.494</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
