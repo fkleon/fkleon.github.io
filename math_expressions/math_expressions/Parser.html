@@ -63,8 +63,10 @@ new <strong>Parser</strong>() <a class="anchor-link" href="#"
 <a href="../math_expressions/Expression.html">Expression</a> <strong>parse</strong>(String inputString) <a class="anchor-link" href="#parse"
               title="Permalink to Parser.parse">#</a></h4>
 <div class="doc">
-<p>Parses the given input string into an <a class="crossref" href="../math_expressions/Expression.html">Expression</a>. Throws a <a class="crossref" href="../dart_core/StateError.html">StateError</a>
-if the token stream is invalid. Returns a valid <a class="crossref" href="../math_expressions/Expression.html">Expression</a>.</p>
+<p>Parses the given input string into an <a class="crossref" href="../math_expressions/Expression.html">Expression</a>. Throws a <a class="crossref" href="../dart_core/ArgumentError.html">ArgumentError</a>
+if the given 
+<span class="param">inputString</span> is empty. Throws a <a class="crossref" href="../dart_core/StateError.html">StateError</a>if the token stream
+is invalid. Returns a valid <a class="crossref" href="../math_expressions/Expression.html">Expression</a>.</p>
 </div>
 </div>
 </div>
@@ -72,7 +74,7 @@ if the token stream is invalid. Returns a valid <a class="crossref" href="../mat
         <div class="clear"></div>
         </div>
         <div class="footer">
-          <div>This page was generated at 2013-10-09 21:10:12.508</div>
+          <div>This page was generated at 2013-10-11 18:46:04.594</div>
         </div>
         <script async src="../client-live-nav.js"></script>
         </body></html>
