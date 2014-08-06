@@ -1,0 +1,19 @@
+<header>
+        <div class="jumbotron blue text-alegreya">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
+                        <img src="{{ "/assets/img/profile.jpeg" | prepend: site.baseurl }}" alt="Frederik Leonhardt" class="img-rounded img-responsive">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <h1>Frederik Leonhardt</h1>
+                        <span class="text-primary" id="contactMe">contact me</span>
+                        <hr>
+                        <p class="text-tagline text-right">&ndash; {{ site.tagline }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include nav.html %}
+</header>

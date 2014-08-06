@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Test blog entry II"
+date:   2014-08-08 10:25:00
+icon: ""
+preview: "Another test entry."
+author: Frederik Leonhardt
+categories: blog
+---
+
+Hello world!
+
+Here is an image for you.
+
+![Test it](https://www.drupal.org/files/test-all-the-things.jpg)

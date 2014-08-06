@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Test blog entry"
+date:   2014-08-04 10:25:00
+icon: "glyphicon-info"
+preview: "A test entry."
+categories: blog
+---
+
+Hello world!

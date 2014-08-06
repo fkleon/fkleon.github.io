@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+    <body>
+
+    {% include front_header.html %}
+
+    <div class="container">
+      {{ content }}
+    </div>
+
+    {% include front_footer.html %}
+
+    <!-- JavaScript -->
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ "/assets/js/custom.js" | prepend: site.baseurl }}"></script>
+    </body>
+</html>

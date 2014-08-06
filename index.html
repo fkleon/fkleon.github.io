@@ -1,0 +1,60 @@
+---
+layout: front
+title: Portfolio
+pos: 1
+---
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <h1>About Me</h1>
+            <p class="lead">I'm a recent graduate with a Master's Degree in Business Informatics from Saarland University in Germany.</p>
+            <p>In my master thesis I worked on business process optimisation by developing a recommender system for operational decision support.
+            The approach utlises real-time process analysis, taking both local process information and global contextual information into account.</p>
+            <p>Besides my studies I enjoy programming, photography and rock climbing. Also I'm a passionate Arch Linux user.</p>
+    </div>
+</div>
+
+<hr/>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+        <section id="publications">
+        <h1>Publications</h1>
+        {% for publication in site.data.publications %}
+            {% capture current_year %}{{ publication.year }}{% endcapture %}
+            {% if current_year != year %}
+                <h3>{{ current_year }}</h3>
+            {% capture year %}{{current_year}}{% endcapture %} 
+            {% endif %}
+            <p>
+                <span class="text-alegreya">{{ publication.authors }}:</span>
+                <a href="{{ publication.url }}">{{ publication.title }}.</a>
+                {{ publication.text }}.
+            </p>
+        {% endfor %}
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Projects</h1>
+                Some of my open source projects.
+                {% for project in site.data.projects %}
+                <div class="media">
+                        <a class="pull-left" href="{{ project.url }}">
+                            {% if project.icon %}
+                            <span class="media-object glyphicon big-icon {{ project.icon }}"></span>
+                            {% else %}
+                            <img class="media-object" width="70" src="{{ site.baseurl }}/assets/img/{{ project.logo }}" alt="{{ project.title }}">
+                            {% endif %}
+                        </a>
+                        <div class="media-body">
+                                <h4 class="media-heading">{{ project.title }} <small>({{ project.lang }})</small></h4>
+                                {{ project.description }}
+                        </div>
+               </div>
+               {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

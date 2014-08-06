@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "A JUnit 4 test class"
+date:   2014-08-06 10:25:00
+icon: "glyphicon-dashboard"
+preview: "A post about JUnit."
+categories: coding
+---
+
+I prepared a class..
+
+{% gist 4683266 %}
+
+JUnit Test Framework

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Blog
+pos: 2
+published: false
+---
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12">
+        {% for post in site.posts %}
+        <div class="media">
+            {% if post.icon %}
+                <span class="media-object pull-left glyphicon big-icon {{ post.icon }}"></span>
+            {% else %}
+                <img class="media-object pull-left" width="70" src="{{ site.baseurl }}/assets/img/{{ post.logo }}" alt="{{ post.title }}">
+            {% endif %}
+            <!--
+            <a class="pull-left" href="{{ post.url | prepend: site.baseurl }}">
+                {% if post.icon %}
+                    <span class="media-object glyphicon big-icon {{ post.icon }}"></span>
+                {% else %}
+                    <img class="media-object" width="70" src="{{ site.baseurl }}/img/{{ post.logo }}" alt="{{ post.title }}">
+                {% endif %}
+            </a>
+            -->
+            <div class="media-body">
+                <h4 class="media-heading">
+                    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <!--<small>({{ post.date | date: "%b %-d, %Y" }})</small>-->
+                </h4>
+                {{ post.excerpt }}
+                <small><a href="{{ post.url | prepend: site.baseurl }}">read more...</a></small>
+            </div>
+        </div>
+        <hr/>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,31 @@
+# Site settings
+title: Frederik Leonhardt | Portfolio
+tagline: I love to code!
+author:
+  name: Frederik Leonhardt
+  #email: your-email@domain.com
+  github: fkleon
+  linkedin: fleonhardt
+  gplus: FrederikLeonhardt
+  facebook: frederik.leonhardt
+
+description: The homepage of Frederik Leonhardt
+baseurl: ""
+url: "https://fkleon.github.io"
+
+# Navigation
+#navigation:
+# - title: Portfolio
+#   url: /index.html
+# - title: Blog
+#   url: /blog/index.html
+# - title: About
+#   url: /about.md
+
+# Blog settings
+#paginate: 1
+#paginate_path: "blog/page/:num"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

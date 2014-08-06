@@ -1,0 +1,18 @@
+<div class="row nav-blue text-alegreya">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+            <nav>
+                <ul class="nav nav-justified">
+                    {% assign sorted_pages = site.pages | sort:'pos' %}
+                    {% for node in sorted_pages %}
+                    <li {% if page.url == node.url %}class="active"{% endif %}>
+                        <a class="page-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </div>
+</div>

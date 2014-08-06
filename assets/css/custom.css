@@ -1,0 +1,82 @@
+@import url(//fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);
+
+/** Body and text */
+h1, h2, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.text-tagline {
+    color: #AAA;
+}
+
+body {
+    color: #424b51;
+}
+
+body .text-alegreya {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #424b51;*/
+}
+
+/* Blue background parts */
+.blue {
+    background: #085a78;
+    /*background: #506272;*/
+    color: white;
+}
+
+.nav-blue {
+    background: #063e53;
+    color: white;
+}
+
+.blue h1 small, .blue h2 small, .blue h3 small {
+    color: #888;
+}
+
+
+/* Navigation */
+.nav a:hover {
+    text-decoration: underline !important;
+    color: #A1C5E5;
+}
+
+.nav>li.active>a {
+    color: white;
+    text-decoration: underline;
+}
+
+/** Sections */
+span.big-icon {
+    font-size: 5.0em;
+}
+
+#publications a {
+     font-style: italic;
+}
+
+#copyright {
+    color: white;
+    font-size:14px;
+    padding-top: 20px;
+}
+
+.jumbotron #copyright {
+    color: white;
+    font-size:14px;
+    padding-top: 80px;
+}
+
+body > .container {
+    /* add some margin to the container (since it's removed from the jumbotron */
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.jumbotron {
+    margin-bottom: 0px; /* removes additional white margin under jumbotron */
+    /*background: #085a78;*/
+}
