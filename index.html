@@ -32,7 +32,7 @@ pos: 1
                 <p>
                     <span class="text-alegreya">{{ publication.authors }}:</span>
                     <a href="{{ publication.url }}">{{ publication.title }}.</a>
-                    {{ publication.text }}.
+                    {{ publication.text }}
                     {% if publication.download %}
                         <a href ="{{ publication.download | prepend: site.baseurl }}"><span class="glyphicon glyphicon-download"></span> Download</a>.
                     {% endif %}
