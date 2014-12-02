@@ -16,8 +16,14 @@
   url: https://github.com/fkleon/bugex-online
   logo: bugex-square.png
 
+- title: TinTin
+  lang: Dart Programming Language
+  description: A declarative authorization library for Dart inspired by Ruby's CanCan.
+  url: https://github.com/fkleon/tintin
+  icon: glyphicon-tower
+
 - title: bpe-sim
   lang: Java
-  description: An integrated business process monitoring and recommendation engine fed by a simulation model.
+  description: A business process monitoring and recommendation engine fed by a simulation model.
   url: https://github.com/fkleon/bpe-sim
   icon: glyphicon-time
