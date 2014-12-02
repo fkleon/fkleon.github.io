@@ -34,7 +34,7 @@ pos: 1
                     <a href="{{ publication.url }}">{{ publication.title }}.</a>
                     {{ publication.text }}.
                     {% if publication.download %}
-                        <a href ="{{ publication.download }}"><span class="glyphicon glyphicon-download"></span> Download</a>.
+                        <a href ="{{ publication.download | prepend: site.baseurl }}"><span class="glyphicon glyphicon-download"></span> Download</a>.
                     {% endif %}
                 </p>
             {% endfor %}
