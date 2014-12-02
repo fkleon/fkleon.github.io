@@ -60,14 +60,19 @@ span.big-icon {
 
 #copyright {
     color: white;
-    font-size:14px;
+    font-size: 14px;
     padding-top: 20px;
 }
 
 .jumbotron #copyright {
     color: white;
-    font-size:14px;
+    font-size: 14px;
     padding-top: 80px;
+}
+
+.jumbotron .vcard {
+    color: white;
+    font-size: 12px;
 }
 
 body > .container {

@@ -8,6 +8,12 @@ author:
   linkedin: fleonhardt
   gplus: FrederikLeonhardt
   facebook: frederik.leonhardt
+  address:
+    street: n/a
+    locality: Wellington
+    region: Ngaio
+    postal-code: 6035
+    country: New Zealand
 
 description: The homepage of Frederik Leonhardt
 baseurl: ""
