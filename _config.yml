@@ -35,3 +35,4 @@ url: "https://fkleon.github.io"
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+timezone: Pacific/Auckland
