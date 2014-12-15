@@ -2,9 +2,16 @@
 layout: default
 title: Blog
 pos: 2
-published: false
+published: true
 ---
 
+<div class="row">
+    <div class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12">
+        <p class="lead">This blog contains a collection of assorted posts and ramblings mainly about coding and photography.</p>
+        <p>Here are the most recent posts:</p>
+        <hr />
+    </div>
+</div>
 <div class="row">
     <div class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12">
         {% for post in site.posts %}
@@ -12,7 +19,7 @@ published: false
             {% if post.icon %}
                 <span class="media-object pull-left glyphicon big-icon {{ post.icon }}"></span>
             {% else %}
-                <img class="media-object pull-left" width="70" src="{{ site.baseurl }}/assets/img/{{ post.logo }}" alt="{{ post.title }}">
+                <img class="media-object pull-left" width="70" src="{{ site.baseurl }}/assets/blog/{{ post.logo }}" alt="{{ post.title }}" />
             {% endif %}
             <!--
             <a class="pull-left" href="{{ post.url | prepend: site.baseurl }}">
@@ -33,7 +40,7 @@ published: false
                 <small><a href="{{ post.url | prepend: site.baseurl }}">read more...</a></small>
             </div>
         </div>
-        <hr/>
+        <hr />
         {% endfor %}
     </div>
 </div>
