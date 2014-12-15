@@ -19,7 +19,7 @@ The following recipe makes about 50 small cookies.
 * 100g almond flour
 * 150g icing sugar
 * 1 egg
-* 1 tbsp vanialla essence
+* 1 tbsp vanilla essence
 * 1 tbsp lemon zest
 * jam for the filling
 
