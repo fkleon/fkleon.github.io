@@ -36,3 +36,7 @@ url: "https://fkleon.github.io"
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 timezone: Pacific/Auckland
+
+# Plugins
+gems:
+  - jekyll-sitemap
