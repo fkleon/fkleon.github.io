@@ -6,8 +6,8 @@ logo: spitzbuben_icon.jpg
 preview: "A recipe for Spitzbuben, traditional German christmas cookies."
 categories: recipe cooking blog
 ---
-Being away from Germany for the second Christmas, we are keeping up some traditions
-and decided to follow up with our baking efforts from last year.
+Being away from Germany for the second Christmas in a row, we decided to keep up some traditions
+and to follow up with our quite successful baking efforts from last year.
 The resulting "Plätzchen" taste delicious even in a summer christmas season.
 
 The following recipe makes about 50 small cookies.
@@ -36,8 +36,8 @@ The following recipe makes about 50 small cookies.
 8. Lightly dust the cookies with icing sugar
 
 ## Results
-![Spitzbuben]({{ site.baseurl }}/assets/blog/2014-12-15_spitzbuben.jpg)
+![Spitzbuben]({{ site.baseurl }}/assets/{{ page.id }}/spitzbuben.jpg)
 
-![Spitzbuben detail]({{ site.baseurl }}/assets/blog/2014-12-15_spitzbuben_detail.jpg)
+![Spitzbuben detail]({{ site.baseurl }}/assets/{{ page.id }}/spitzbuben_detail.jpg)
 
 Yum!
