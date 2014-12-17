@@ -1,9 +1,8 @@
 ---
-layout: post
-title: German Christmas Baking - Spitzbuben
-date:   2014-12-15 03:52:00
-logo: spitzbuben_icon.jpg
-preview: "A recipe for Spitzbuben, traditional German christmas cookies."
+layout:     post
+title:      German Christmas Baking - Spitzbuben
+date:       2014-12-15 03:52:00
+preview:    "A recipe for Spitzbuben, traditional German christmas cookies."
 categories: recipe cooking blog
 ---
 Being away from Germany for the second Christmas in a row, we decided to keep up some traditions

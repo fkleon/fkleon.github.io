@@ -1,8 +1,8 @@
 ---
-layout: post
-title: New York City and Jersey City Waterfront
-date:   2014-12-16 22:24:00
-icon: glyphicon-camera
+layout:     post
+title:      New York City and Jersey City Waterfront
+date:       2014-12-16 22:24:00
+icon:       glyphicon-camera
 categories: photography hdr blog
 ---
 Last year, when I was staying in Hoboken, I was greeted with a stunning skyline every day.
