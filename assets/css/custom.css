@@ -75,6 +75,11 @@ span.big-icon {
     font-size: 12px;
 }
 
+footer a:hover {
+    text-decoration: underline !important;
+    color: #A1C5E5;
+}
+
 body > .container {
     /* add some margin to the container (since it's removed from the jumbotron */
     margin-top:30px;
