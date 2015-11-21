@@ -22,6 +22,12 @@
   url: https://github.com/fkleon/tintin
   icon: glyphicon-tower
 
+- title: TraceBuddy
+  lang: Dart Programming Language
+  description: A browser-based ray tracer with support for rendering implicit mathematical functions.
+  url: https://github.com/fkleon/trace-buddy
+  icon: glyphicon-picture
+
 - title: bpe-sim
   lang: Java
   description: A business process monitoring and recommendation engine fed by a simulation model.
