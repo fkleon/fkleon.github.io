@@ -4,6 +4,8 @@ tagline: I love to code!
 author:
   name: Frederik Leonhardt
   #email: your-email@domain.com
+  pgp: 3F36 4AE1 3703 55EC FEB6 904C 993B 4EC6 E162 4FFF
+  pgp_file: /downloads/frederik_leonhardt_pub.asc
   github: fkleon
   linkedin: fleonhardt
   gplus: FrederikLeonhardt

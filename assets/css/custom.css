@@ -37,6 +37,10 @@ body .text-alegreya {
     color: #888;
 }
 
+.blue a:hover {
+    text-decoration: underline !important;
+    color: #A1C5E5;
+}
 
 /* Navigation */
 .nav a:hover {
@@ -73,11 +77,6 @@ span.big-icon {
 .jumbotron .vcard {
     color: white;
     font-size: 12px;
-}
-
-footer a:hover {
-    text-decoration: underline !important;
-    color: #A1C5E5;
 }
 
 body > .container {
