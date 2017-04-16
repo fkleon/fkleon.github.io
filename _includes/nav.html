@@ -5,11 +5,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
             <nav>
                 <ul class="nav nav-justified">
-                    {% assign sorted_pages = site.pages | sort:'pos' %}
+                    {% assign sorted_pages = site.html_pages | sort: 'pos' %}
                     {% for node in sorted_pages %}
-                    {% if node.url == '/sitemap.xml' %}
-                      {% continue %}
-                    {% endif %}
                     <li {% if page.url == node.url %}class="active"{% endif %}>
                         <a class="page-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
                     </li>
