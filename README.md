@@ -1,4 +1,4 @@
-# Portfolio site
+# Personal portfolio site
 
 My static portfolio site created with [Jekyll](https://jekyllrb.com/).
 
@@ -24,6 +24,6 @@ Two options:
 
 ## License
 
-The content of this project itself is licensed under the (https://creativecommons.org/licenses/by-nc/4.0/)[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license],
+The content of this project itself is licensed under the [https://creativecommons.org/licenses/by-nc/4.0/](Creative Commons Attribution-NonCommercial 4.0 International license) (CC BY-NC 4.0),
 and the underlying source code used to format and display that content is
-licensed under the [MIT license)(LICENSE.md).
+licensed under the [MIT license](LICENSE.md).
