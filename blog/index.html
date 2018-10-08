@@ -17,7 +17,7 @@ published: true
         {% for post in site.posts %}
         <div class="media">
             {% capture logo_path %}/assets{{ post.id }}/logo.jpg{% endcapture %}
-            {% assign logo_files = (site.static_files | where: "path", logo_path) %}
+            {% assign logo_files = site.static_files | where: "path", logo_path %}
             {% if logo_files.size > 0 %}
                 <img class="media-object pull-left" width="70" src="{{ site.baseurl }}{{ logo_path }}" alt="{{ post.title }}" />
             {% else %}

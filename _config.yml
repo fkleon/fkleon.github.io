@@ -33,10 +33,7 @@ collections:
 # Build settings
 markdown: kramdown
 timezone: Pacific/Auckland
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 # Plugins
-gems:
+plugins:
   - jekyll-sitemap
